@@ -74,7 +74,7 @@ def main():
         display_statistics()
     if args.masquerade:
         display_masquerade()
-    if not args.route or args.interfaces or args.groups or args.statistics or args.masquerade:
+    if not args.route and not args.interfaces and not args.groups and not args.statistics and not args.masquerade:
         parser.print_help()
 
 if __name__ == '__main__':
