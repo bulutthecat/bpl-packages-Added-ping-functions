@@ -1,0 +1,8 @@
+{
+	"name": "RayFind-Utils",
+	"version": "1.0.0",
+	"author": "Kevin E. Dalli",
+	"bin": "rayfind.py",
+	"homepage": "https://github.com/bulutthecat",
+	"requires": []
+}

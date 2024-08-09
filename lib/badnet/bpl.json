@@ -1,0 +1,8 @@
+{
+	"name": "Badnet-Lib",
+	"version": "1.0.0",
+	"author": "Kevin E. Dalli",
+	"bin": "badnet.py",
+	"homepage": "https://github.com/bulutthecat",
+	"requires": []
+}

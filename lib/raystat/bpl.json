@@ -1,0 +1,8 @@
+{
+	"name": "Raystat-Utils",
+	"version": "1.0.0",
+	"author": "Kevin E. Dalli",
+	"bin": "raystat.py",
+	"homepage": "https://github.com/bulutthecat",
+	"requires": []
+}

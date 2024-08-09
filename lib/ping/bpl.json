@@ -1,0 +1,8 @@
+{
+	"name": "Raynet-Utils",
+	"version": "1.2.4",
+	"author": "Kevin E. Dalli",
+	"bin": "rayping.py",
+	"homepage": "https://github.com/bulutthecat",
+	"requires": []
+}

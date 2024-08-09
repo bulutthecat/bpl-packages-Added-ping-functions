@@ -1,0 +1,10 @@
+{
+	"name": "Rayconfig-Utils",
+	"version": "1.0.0",
+	"author": "Kevin E. Dalli",
+	"bin": "renfig.py",
+	"homepage": "https://github.com/bulutthecat",
+	"requires": [
+		"Badnet-Lib"
+	]
+}

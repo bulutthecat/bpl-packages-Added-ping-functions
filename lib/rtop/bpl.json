@@ -1,0 +1,8 @@
+{
+	"name": "Raytop-Monitor",
+	"version": "1.0.0",
+	"author": "Kevin E. Dalli",
+	"bin": "raytop.py",
+	"homepage": "https://github.com/bulutthecat",
+	"requires": []
+}

@@ -1,0 +1,73 @@
+
+Functions that need to be added:
+
+additional functions that could be implemented:
+
+\/ need to write logging libraries.
+
+Customizable Output Formats:
+
+    JSON/XML Output:
+        --output-format <json|xml>: Format the output as JSON or XML.
+    Custom Templates:
+        --output-template <template>: Use a custom template for the output.
+
+Detailed Statistics Logging:
+
+    Extended Logging:
+        --log-file <file>: Specify a file to log detailed information about each ping attempt.
+        --log-format <format>: Specify the format of the log file, e.g., text, CSV.
+    Graphical Output:
+        --graph-output <file>: Generate a graphical representation of the ping results and save it to the specified file.
+
+
+\/ need to write error handling libraries.
+
+Advanced Error Handling:
+
+    Error Classification:
+        --verbose-errors: Display categorized and detailed error messages.
+    Retry Logic:
+        --retry <count>: Number of retry attempts for failed pings.
+        --retry-interval <interval>: Interval between retry attempts.
+
+now this, I can do!
+
+Integration with Other Network Tools:
+    DNS Diagnostics:
+        --dns-lookup: Perform DNS resolution checks and display DNS lookup times.
+
+Enhanced Timing and Scheduling:
+
+    Scheduled Pings:
+        --schedule <cron_expression>: Schedule pings to run at specified times.
+    Adaptive Interval:
+        --adaptive-interval: Automatically adjust the ping interval based on network conditions.
+
+Custom Packet Payloads:
+
+    Payload Content:
+        --payload <data>: Specify custom content for the ping packet payload.
+    Variable Payload Size:
+        --vary-payload: Vary the packet size during the ping session to test different MTU sizes.
+
+Multi-Host and Multi-Interface Support:
+
+    Batch Ping:
+        --batch <file>: Specify a file containing a list of hosts to ping.
+    Multi-Interface Ping:
+        --interfaces <interface1,interface2,...>: Send pings from multiple network interfaces concurrently.
+
+Geolocation Information:
+
+    Geolocation Lookup:
+        --geolocation: Display geolocation information for the target IP address.
+
+
+\/ how about NO? this is going to be a pain to implement.
+Alerting and Notifications:
+
+    Threshold-Based Alerts:
+        --alert-threshold <latency|packetloss>:<value>: Set thresholds for latency or packet loss and trigger alerts.
+    Real-Time Notifications:
+        --notify <method>: Specify the method of notification (e.g., email, SMS) for significant events.
