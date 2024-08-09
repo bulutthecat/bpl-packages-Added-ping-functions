@@ -2,7 +2,7 @@
 	"name": "Raycurl-Utils",
 	"version": "1.0.0",
 	"author": "Kevin E. Dalli",
-	"bin": "raucur.py",
+	"bin": "raycur.py",
 	"homepage": "https://github.com/bulutthecat",
 	"requires": [
 		"Badnet-Lib"
